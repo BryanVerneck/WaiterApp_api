@@ -1,5 +1,5 @@
 import * as path from 'path';
-import http from 'node:http';
+import * as http from 'http';
 import express from 'express';
 import mongoose from 'mongoose';
 import { Server } from 'socket.io';
