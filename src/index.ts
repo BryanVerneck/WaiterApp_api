@@ -9,7 +9,6 @@ import { router } from './router';
 const app = express();
 const server = http.createServer(app);
 export const io = new Server(server);
-// mongoose.set('strictyQuery', false);
 
 mongoose.connect('mongodb+srv://bryan:bryan@waiterapp.ddgddfl.mongodb.net/?retryWrites=true&w=majority')
   .then(() => {
